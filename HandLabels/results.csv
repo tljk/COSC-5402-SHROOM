@@ -1,0 +1,61 @@
+task,comboMethod,model,bestParams,bestAccuracy
+PG,concat,LR,"{'C': 0.001, 'solver': 'lbfgs'}",0.655
+PG,concat,SVM,"{'C': 1, 'gamma': 'scale'}",0.6499999999999999
+PG,concat,KNN,"{'algorithm': 'auto', 'n_neighbors': 6, 'weights': 'uniform'}",0.6700000000000002
+PG,sum,LR,"{'C': 0.001, 'solver': 'lbfgs'}",0.6399999999999999
+PG,sum,SVM,"{'C': 1, 'gamma': 'scale'}",0.655
+PG,sum,KNN,"{'algorithm': 'auto', 'n_neighbors': 6, 'weights': 'uniform'}",0.65
+PG,mean,LR,"{'C': 0.01, 'solver': 'lbfgs'}",0.645
+PG,mean,SVM,"{'C': 1, 'gamma': 'scale'}",0.655
+PG,mean,KNN,"{'algorithm': 'auto', 'n_neighbors': 6, 'weights': 'uniform'}",0.65
+PG,max,LR,"{'C': 0.01, 'solver': 'liblinear'}",0.635
+PG,max,SVM,"{'C': 1, 'gamma': 'scale'}",0.6599999999999999
+PG,max,KNN,"{'algorithm': 'auto', 'n_neighbors': 14, 'weights': 'uniform'}",0.67
+PG,min,LR,"{'C': 0.01, 'solver': 'lbfgs'}",0.63
+PG,min,SVM,"{'C': 1, 'gamma': 'scale'}",0.655
+PG,min,KNN,"{'algorithm': 'auto', 'n_neighbors': 10, 'weights': 'uniform'}",0.67
+DM,concat,LR,"{'C': 0.001, 'solver': 'liblinear'}",0.675
+DM,concat,SVM,"{'C': 0.001, 'gamma': 'scale'}",0.675
+DM,concat,KNN,"{'algorithm': 'auto', 'n_neighbors': 12, 'weights': 'uniform'}",0.675
+DM,sum,LR,"{'C': 0.001, 'solver': 'liblinear'}",0.675
+DM,sum,SVM,"{'C': 0.001, 'gamma': 'scale'}",0.675
+DM,sum,KNN,"{'algorithm': 'auto', 'n_neighbors': 16, 'weights': 'uniform'}",0.665
+DM,mean,LR,"{'C': 0.001, 'solver': 'liblinear'}",0.675
+DM,mean,SVM,"{'C': 0.001, 'gamma': 'scale'}",0.675
+DM,mean,KNN,"{'algorithm': 'auto', 'n_neighbors': 16, 'weights': 'uniform'}",0.665
+DM,max,LR,"{'C': 0.001, 'solver': 'liblinear'}",0.675
+DM,max,SVM,"{'C': 0.001, 'gamma': 'scale'}",0.675
+DM,max,KNN,"{'algorithm': 'auto', 'n_neighbors': 12, 'weights': 'uniform'}",0.66
+DM,min,LR,"{'C': 0.001, 'solver': 'liblinear'}",0.675
+DM,min,SVM,"{'C': 0.001, 'gamma': 'scale'}",0.675
+DM,min,KNN,"{'algorithm': 'auto', 'n_neighbors': 10, 'weights': 'uniform'}",0.685
+MT,concat,LR,"{'C': 0.1, 'solver': 'liblinear'}",0.835
+MT,concat,SVM,"{'C': 0.001, 'gamma': 'scale'}",0.8299999999999998
+MT,concat,KNN,"{'algorithm': 'auto', 'n_neighbors': 8, 'weights': 'uniform'}",0.8299999999999998
+MT,sum,LR,"{'C': 0.001, 'solver': 'liblinear'}",0.8299999999999998
+MT,sum,SVM,"{'C': 0.001, 'gamma': 'scale'}",0.8299999999999998
+MT,sum,KNN,"{'algorithm': 'auto', 'n_neighbors': 20, 'weights': 'distance'}",0.835
+MT,mean,LR,"{'C': 0.001, 'solver': 'liblinear'}",0.8299999999999998
+MT,mean,SVM,"{'C': 0.001, 'gamma': 'scale'}",0.8299999999999998
+MT,mean,KNN,"{'algorithm': 'auto', 'n_neighbors': 20, 'weights': 'distance'}",0.835
+MT,max,LR,"{'C': 0.001, 'solver': 'liblinear'}",0.8299999999999998
+MT,max,SVM,"{'C': 0.001, 'gamma': 'scale'}",0.8299999999999998
+MT,max,KNN,"{'algorithm': 'auto', 'n_neighbors': 16, 'weights': 'distance'}",0.835
+MT,min,LR,"{'C': 0.1, 'solver': 'lbfgs'}",0.835
+MT,min,SVM,"{'C': 0.001, 'gamma': 'scale'}",0.8299999999999998
+MT,min,KNN,"{'algorithm': 'auto', 'n_neighbors': 10, 'weights': 'uniform'}",0.835
+PG_withDM,concat,LR,"{'C': 0.01, 'solver': 'lbfgs'}",0.6174999999999999
+PG_withDM,concat,SVM,"{'C': 1, 'gamma': 'scale'}",0.6325000000000001
+PG_withDM,concat,KNN,"{'algorithm': 'auto', 'n_neighbors': 18, 'weights': 'uniform'}",0.6275000000000001
+PG_withDM,sum,LR,"{'C': 0.01, 'solver': 'lbfgs'}",0.6275000000000001
+PG_withDM,sum,SVM,"{'C': 1, 'gamma': 'scale'}",0.635
+PG_withDM,sum,KNN,"{'algorithm': 'auto', 'n_neighbors': 10, 'weights': 'uniform'}",0.635
+PG_withDM,mean,LR,"{'C': 0.01, 'solver': 'lbfgs'}",0.6249999999999999
+PG_withDM,mean,SVM,"{'C': 1, 'gamma': 'scale'}",0.635
+PG_withDM,mean,KNN,"{'algorithm': 'auto', 'n_neighbors': 10, 'weights': 'uniform'}",0.635
+PG_withDM,max,LR,"{'C': 0.01, 'solver': 'liblinear'}",0.6275
+PG_withDM,max,SVM,"{'C': 1, 'gamma': 'scale'}",0.635
+PG_withDM,max,KNN,"{'algorithm': 'auto', 'n_neighbors': 16, 'weights': 'uniform'}",0.6375
+PG_withDM,min,LR,"{'C': 0.01, 'solver': 'liblinear'}",0.6249999999999999
+PG_withDM,min,SVM,"{'C': 1, 'gamma': 'scale'}",0.6249999999999999
+PG_withDM,min,KNN,"{'algorithm': 'auto', 'n_neighbors': 14, 'weights': 'uniform'}",0.6475
