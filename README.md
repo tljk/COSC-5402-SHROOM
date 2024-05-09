@@ -10,8 +10,8 @@ This branch contains code used to produce the results for the hand labeled basel
 ## Files
 
 * silverDataTraining.csv: 600 hand-labeled samples, 200 for each task
-* silverDataTraining_embeddings.cdv: the mBERT embeddings for the source, target, and hypothesis texts for each hand-labeled sample
+* silverDataTraining_embeddings.csv: the mBERT embeddings for the source, target, and hypothesis texts for each hand-labeled samples
 * train.csv: the unlabeled SHROOM training set
-* silverData.ipynb: code to process and generate the silver data
+* silverData.ipynb: code to process and generate the silver data. This is all consolidated into a single file, with explanations throughout the code file.
 * silverData.csv: the pseudo labeled training data
 * embeddingBatches: directory of batches for the training set; too bulky to upload
