@@ -9,10 +9,10 @@ Stored in the XLSX files.
 ## Confidence Estimator
 See `confidence-estimator` branch.
 
-## Baseline Model
+## Shared Task Baseline Model
 See `baseline` branch.
 
-## Hand-labeled data and simple models
+## Hand-labeled Data and Simple Models
 See `simple-models` branch.
 
 ## SOLAR
